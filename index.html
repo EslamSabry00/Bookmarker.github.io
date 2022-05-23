@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+
+<div class="container">
+  <!--HEADER-->
+  <header>
+    <div class="col-12">
+      <h3 class="fw-bolder">Bookmarker</h3>
+    </div>
+  </header>
+  <!--ADD FORM-->
+  <section class=" mb-4 col-12">
+    <div class="bg-secondary bg-opacity-10 rounded">
+      <div class="p-30 mt-3 text-center">
+        <h2 class="fs-4 fw-bold my-19">Bookmark your favorite sites</h2>
+        <p class="fw-bold mb-3">Site Name</p>
+        <input id="bookmarkName" class="form-control w-75 m-auto mb-3" type="text" placeholder="Bookmark Name"/>
+        <p class="fw-bold mb-3">Site URL</p>
+        <input id="bookmarkURL" class="form-control w-75 m-auto mb-3" type="url" placeholder="Bookmark URL"/>
+        <button onclick="addBookmark()" class="btn btn-primary mb-3">Submit</button>
+      </div>
+    </div>
+  </section>
+  <!--USER DATA-->
+  <section class=" mb-4 mx-2" id="bookmarkItems">
+    
+  </section>
+  <!--FOOTER-->
+  <footer class="p-4 border-top border-secondary">
+    <div >
+      <p class="fw-bold text-muted">© 2019 Bookmarker Inc.</p>
+    </div>
+  </footer>
+  
+</div>
+  <script src="js/bootstrap.bundle.min.js" ></script>  
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+	font-family:arial
+}
+body{
+    margin: 8px;
+}
+header h3{
+    color: #aaaaaa;
+    margin: 29px 0 ;
+    margin-left: 18px;
+    font-size: 29.25px;
+    line-height: normal;
+}
+header div{
+    padding: 20px;
+    border-bottom: #aaa solid 1px;
+}
+.p-30{
+    padding: 30px;
+}
+.my-19{
+    margin-top: 19px;
+    margin-bottom: 36px;
+}
+.btn:hover{
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.m-20{
+    margin: 20px;
+}
+#bookmarkItem{
+    background-image: linear-gradient(#eee,#fff);
+}
+.p-20{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.w-fit{
+    width: fit-content;
+}
+.w-35{
+    width: 35%;
+}
+footer p{
+    font-size: 14px;
+}
